@@ -2660,7 +2660,6 @@
     <string name="enable_not_wakeup_screen_str">Запретить уведомлениям активировать подсветку дисплея</string>
     <string name="profile_write_failed">Ошибка записи метки!</string>
     <string name="profile_write_success">Метка записана.</string>
-    <string name="recovery_profile_unlock">Отключить спящий режим при активации экрана</string>
     <string name="select_favor_title">Нажмите, чтобы выбрать или отменить выбор</string>
     <string name="wlan_write_tag_enable_wifi_summary">Вам нужно подключиться к Wi-Fi, чтобы загрузить что-то в сеть</string>
     <string name="nfc_user_guider">Инструкция NFC</string>
@@ -2878,4 +2877,9 @@
     <string name="sim_remain">(Осталось: %d)</string>
     <string name="wifi_ap_time_duration">Длительность: %1$s</string>
     <string name="wifi_ap_total_data">Всего использовано данных: %1$s</string>
+	<string name="mz_drive_mode_title">Помощь водителю включена</string>
+    <string name="mz_drive_mode_message">Просмотреть детали</string>
+	<string name="hifi_hint">Требуется подключение наушников</string>
+	<string name="recovery_profile_unlock">Отменить спящий режим при разблокированном экране</string>
+	<string name="mc_time_picker_leap">Встав.</string>
 </resources>
