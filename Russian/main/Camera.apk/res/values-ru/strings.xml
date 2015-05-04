@@ -472,9 +472,9 @@
 	<string name="mz_countdown_10s">10с</string>
     <string name="mz_countdown_3s">3с</string>
     <string name="mz_countdown_5s">5с</string>
-	<string name="pref_camera_picturesize_big">8,0М␀</string>
-	<string name="pref_camera_picturesize_middle">3,1М␀</string>
-    <string name="pref_camera_picturesize_small">1,2М␀</string>
+	<string name="pref_camera_picturesize_big">8,0М</string>
+	<string name="pref_camera_picturesize_middle">3,1М</string>
+    <string name="pref_camera_picturesize_small">1,2М</string>
 	<string name="pref_video_quality_entry_1080p">1080P</string>
     <string name="pref_video_quality_entry_480p">480P</string>
     <string name="pref_video_quality_entry_720p">720P</string>
