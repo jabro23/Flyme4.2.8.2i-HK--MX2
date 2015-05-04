@@ -400,7 +400,7 @@
         <item>В adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>ВЫКЛ</item>
+        <item>Выкл</item>
         <item>Показывать области наложения</item>
         <item>Выделять области определенного цвета</item>
         <item>Показывать число объектов</item>
