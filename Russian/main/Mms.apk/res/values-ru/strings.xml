@@ -34,7 +34,7 @@
     <string name="send">Отправить</string>
     <string name="type_to_compose_text_enter_to_send">SMS/MMS</string>
     <string name="type_to_compose_sms_enter_to_send">SMS</string>
-    <string name="type_to_compose_flyme_text_enter_to_send">Сообщение Flyme</string>
+    <string name="type_to_compose_flyme_text_enter_to_send">Web-сообщ.</string>
     <string name="type_to_compose_sns_text_enter_to_send">Прямое сообщение</string>
     <string name="open_keyboard_to_compose_message">Откройте клавиатуру, чтобы ввести сообщение</string>
     <string name="compressing">Картинка слишком большая. Выполняется сжатие…</string>
@@ -77,7 +77,7 @@
     <string name="duration_zero">Значение должно быть больше нуля.</string>
     <string name="hidden_sender_address">Адрес отправителя скрыт</string>
     <string name="yes">ОК</string>
-    <string name="no">Отмена</string>
+    <string name="no">Отменить</string>
     <string name="set">Настройки</string>
     <string name="try_to_send">Попытка отправки</string>
     <string name="preferences_title">Настройки</string>
@@ -120,8 +120,8 @@
     <string name="error_code_label">"Код ошибки: "</string>
     <string name="sim_copy_to_phone_memory">Копировать в память телефона</string>
     <string name="sim_delete">Удалить</string>
-    <string name="sim_empty">На SIM-карте нет сообщений</string>
-    <string name="status_none">(Нет)</string>
+    <string name="sim_empty">На SIM-карте нет сообщений.</string>
+    <string name="status_none">(нет)</string>
     <string name="status_pending">Ожидает</string>
     <string name="status_read">Прочитанные</string>
     <string name="status_received">Получено</string>
@@ -189,7 +189,7 @@
     <string name="too_many_unsent_mms">Не удалось отправить сообщение. Слишком много неотправленных MMS.</string>
     <string name="sending_message">Отправка...</string>
     <string name="draft_separator">", "</string>
-    <string name="message_count_format"> %1$s</string>
+    <string name="message_count_format"> %1$s</string>
     <string name="error_state">Данные были изменены</string>
     <string name="error_state_text">Цепочки не соответствуют получателям. Сделайте снимок экрана и отправьте сообщение об ошибке через веб-сайт http://go/droidanizer</string>
     <string name="disable_notifications_dialog_message">Не дублировать уведомления об SMS из приложения обмена сообщениями по умолчанию</string>
@@ -233,7 +233,7 @@
     <string name="trash_restore_title_extra">Восстановить сообщения</string>
     <string name="check_for_delete_sms_body">Удалить выбранные сообщения?</string>
     <string name="check_for_delete_sms_ok">ОК</string>
-    <string name="check_for_delete_sms_cancel">Отмена</string>
+    <string name="check_for_delete_sms_cancel">Отменить</string>
     <string name="check_for_restore_spam">Восстановить выбранные сообщения?</string>
     <string name="trash_spam_messages_loading">Загрузка</string>
     <string name="restore_progress_dialog_title">Восстановление</string>
@@ -278,14 +278,14 @@
     <string name="spam_number_dialog_title">Выполнить фильтрацию?</string>
     <string name="spame_number">Фильтр</string>
     <string name="spam_number_spare_sign">,</string>
-    <string name="spam_number_dialog_message_0">:␀Будет добавлено в спам-фильтр</string>
+    <string name="spam_number_dialog_message_0">" будет добавлен в спам-фильтр"</string>
     <string name="spam_number_dialog_message_1">и т.д. будут добавлены в спам-фильтр</string>
     <string name="Titlebar_Describe_Message_Count_overlimit">Слишком много сообщений сохранено. Удалите часть ненужных.</string>
     <string name="msg_body_sms_vcard">Инфо vCard</string>
     <string name="waiting_for_sending">Отправка</string>
     <string name="waiting_for_make_slideshow">Чтение данных…</string>
     <string name="sms_mms_failed_redeliver_title">Отправить снова</string>
-    <string name="sms_mms_failed_cancel_title">Отмена</string>
+    <string name="sms_mms_failed_cancel_title">Отменить</string>
     <string name="sms_mms_failed_message_single">Ошибка сети. Сообщение не отправлено.</string>
     <string name="sms_mms_failed_message_multi">"Ошибочных сообщений: %1$s
 Получатели"</string>
@@ -294,12 +294,12 @@
     <string name="sms_mms_failed_dialog_message_single">Ошибка сети</string>
     <string name="mms_failed_dialog_title_single">Ошибка отправки MMS</string>
     <string name="lable_mms_center_number">SMS-центр</string>
-    <string name="long_press_menu_forward">Пересл.</string>
-    <string name="long_press_menu_delete">Удал.</string>
-    <string name="long_press_menu_copy">Копир.</string>
-    <string name="long_press_menu_open">Откр.</string>
-    <string name="long_press_menu_save">Сохр.</string>
-    <string name="long_press_menu_sel">Выбр.</string>
+    <string name="long_press_menu_forward">Переслать</string>
+    <string name="long_press_menu_delete">Удалить</string>
+    <string name="long_press_menu_copy">Копировать</string>
+    <string name="long_press_menu_open">Открыть</string>
+    <string name="long_press_menu_save">Сохранить</string>
+    <string name="long_press_menu_sel">Выбрать</string>
     <string name="title_coversation_contact_single">Детали контакта</string>
     <string name="title_coversation_contact_multi">Получатели</string>
     <string name="unknown">Неизвестный</string>
@@ -342,9 +342,9 @@
     <string name="copy_to_clip_tip_fail">Ошибка копирования в буфер обмена</string>
     <string name="forward_message_fail">Ошибка пересылки сообщения</string>
     <string name="attach_menu_from_camera">Камера</string>
-    <string name="attach_menu_image">Добавить картинку</string>
-    <string name="attach_menu_folder">Добавить файл</string>
-    <string name="attach_menu_contact">Добавить контакт</string>
+    <string name="attach_menu_image">Картинка</string>
+    <string name="attach_menu_folder">Файл</string>
+    <string name="attach_menu_contact">Контакт</string>
     <string name="recoder_normal">Нажать для разговора</string>
     <string name="recoder_over">Отпустить для окончания</string>
     <string name="recoder_btn_up_tip">Прокрутить вверх для отмены отправки</string>
@@ -358,7 +358,7 @@
     <string name="sd_pull_out">Отстутствует хранилище данных. Функция недоступна.</string>
     <string name="down_tip">Загрузить</string>
     <string name="re_send_tip">Переотправка</string>
-    <string name="cancel_tip">Отмена</string>
+    <string name="cancel_tip">Отменить</string>
     <string name="mbyte">МБ</string>
     <string name="export_sim_mms">В телефон</string>
     <string name="reset_spam_mms">Сброс</string>
@@ -395,7 +395,7 @@
     <string name="confirm_dialog_search_unfiltrate_msg">Отметить прочитанным?</string>
     <string name="confirm_dialog_resend_sms_msg">Рассылка сообщения для %s</string>
     <string name="confirm_dialog_resend_mms_msg">Сделать расслыку MMS повторно?</string>
-    <string name="flyme_mms_send_action_title">FlymeMMS</string>
+    <string name="flyme_mms_send_action_title">Сообщения Flyme</string>
     <string name="mms_slideshow_view_title">Детали</string>
     <string name="mms_noti_rectrive_statu_msg">Получение MMS</string>
     <string name="flyme_mms_no_space_title">Недостаточно места на диске.</string>
@@ -456,7 +456,7 @@
     <string name="msg_popup_show_label">Новое pop-up сообщение</string>
     <string name="pref_title_msg_popup_show">Новое всплыв. напоминание</string>
     <string name="pref_summary_msg_popup_show">Исключать неизвестных</string>
-    <string name="msg_popup_btn_cancel">Отмена</string>
+    <string name="msg_popup_btn_cancel">Отменить</string>
     <string name="msg_popup_btn_reply">Отправить</string>
     <string name="get_location_menu">Отправить местоположение</string>
     <string name="location_search_fail">Местоположение не найдено</string>
@@ -509,9 +509,9 @@
     <string name="sending_disabled_not_default_app">Отправка отключена</string>
     <string name="compose_disabled_toast">Невозможно создать сообщение, так как текущее приложение не является установленным по умолчанию.</string>
     <string name="pref_title_larger_text_size">Крупный шрифт</string>
-    <string name="message_person_label">Личн.</string>
-    <string name="message_notice_label">Уведомл.</string>
-    <string name="message_favorite_label">Избр.</string>
+    <string name="message_person_label">Личное</string>
+    <string name="message_notice_label">Уведомления</string>
+    <string name="message_favorite_label">Избранное</string>
     <string name="message_unfavorite_label">Удалить из избранного</string>
     <string name="mark_all_as_read_title">Отметить все прочитанными</string>
     <string name="has_favorited">Добавлено в избранное</string>
@@ -542,7 +542,7 @@
     <string name="banner_sms_promo_title_initial">Приложение Сообщения не является текущим для работы</string>
     <string name="banner_sms_promo_title_application">Ваше приложение для сообщений: %s</string>
     <string name="banner_sms_promo_message">Вы можете изменить это в Настройках</string>
-    <string name="pref_title_default_message_app">Приложение для SMS</string>
+    <string name="pref_title_default_message_app">По умолчанию</string>
     <string name="pref_summary_default_message_is_system_own">Стандартное</string>
     <string name="change_default_message_app_dialog_title">Изменить приложение для сообщений?</string>
     <string name="not_default_message_app_dialog_title">Стандартное приложение не является приложением по умолчанию</string>
@@ -551,7 +551,7 @@
     <string name="pref_title_mms_group_mms">Групповые сообщения</string>
     <string name="spam_report_to_server">Рапорт в облако</string>
     <string name="label_select_conversation">Записи</string>
-    <string name="ask_delete_conversation">"  Также удалить записи"</string>
+    <string name="ask_delete_conversation">"  Также удалить сообщения"</string>
     <string name="open_flyme_title">Включить Flyme-общение</string>
     <string name="open_flyme_sub_title">После включения можно использовать бесплатные звонки и сообщения</string>
     <string name="no_tip_next_time">"  Не напоминать в дальнейшем"</string>
@@ -559,6 +559,14 @@
     <string name="payment_not_found">Приложение для оплаты не найдено</string>
     <string name="payment_not_supported">Эта функция пока не поддерживается</string>
     <string name="toast_cannot_send_message">Отправка сообщения недоступна</string>
+    <string name="attach_menu_timer">Таймер</string>
+    <string name="menu_action_select">Сохранить</string>
+    <string name="pick_timer_warning">Устанавливаемое время не может быть раньше, чем текущее</string>
+    <string name="timer_string_formatter">Будет отправлено %1$s</string>
+    <string name="timer_date_formatter">dd/MM/yyyy HH:mm</string>
+    <string name="timer_date_formatter_12">dd/MM/yyyy hh:mm a</string>
+    <string name="has_download_task_tip">Идет загрузка, попробуйте позже</string>
+    <string name="select_time_date_tittle">Выбрать дату</string>
     <string name="done">Назад</string>
     <string name="more_string">ещё %1$s</string>
     <string name="copy_email">Скопировать адрес E-mail</string>
@@ -613,10 +621,10 @@
     <string name="mc_pattern_today">Сегодня</string>
     <string name="mc_action_settings">Настройки</string>
     <string name="mc_yes">ОК</string>
-    <string name="mc_cancel">Отмена</string>
-    <string name="mc_hour">Час.</string>
-    <string name="mc_minute">Мин.</string>
-    <string name="mc_second">Сек.</string>
+    <string name="mc_cancel">Отменить</string>
+    <string name="mc_hour">ч</string>
+    <string name="mc_minute">м</string>
+    <string name="mc_second">с</string>
     <string name="more_item_label">Ещё</string>
     <string name="mc_monday">ПН</string>
     <string name="mc_tuesday">ВТ</string>
@@ -639,7 +647,7 @@
     <string name="mc_description_target_decline">Отклонить</string>
     <string name="mc_description_target_answer">Правильный вариант</string>
     <string name="mc_custom_date_time_lunar">Лунный</string>
-    <string name="mc_custom_date_time_gregorian">Григор.</string>
+    <string name="mc_custom_date_time_gregorian">Григорианский</string>
     <string name="mc_permission_apply">Разрешения</string>
     <string name="mc_alway_allow">Разрешать всегда</string>
     <string name="mc_reject">Отклонить</string>
@@ -663,7 +671,7 @@
     <string name="mc_pm_allow_check_app">Разрешить</string>
     <string name="mc_pm_not_allow_check_app">Запретить</string>
     <string name="mc_pm_dlg_ok">ОК</string>
-    <string name="mc_pm_dlg_cancel">Отмена</string>
+    <string name="mc_pm_dlg_cancel">Отменить</string>
     <string name="mc_pm_bluetooth">Bluetooth</string>
     <string name="mc_pm_nfc">NFC</string>
     <string name="mc_pm_dialog_push">Вспылвающий Push</string>
@@ -677,6 +685,7 @@
     <string name="mc_is_Refreshing">Обновление</string>
     <string name="mc_go_Refreshing">Обновить</string>
     <string name="mc_search">Поиск</string>
+    <string name="mc_time_picker_leap">Встав.</string>
     <string name="menu_call_back">Вызов: %s</string>
     <string name="menu_send_email">Написать письмо %s</string>
     <string name="menu_compose_new">Новое сообщение</string>
@@ -778,7 +787,7 @@
     <string name="attach_contact">Сведения контакта</string>
     <string name="attach_label">Вложение</string>
     <string name="attach_vcard">Инфо vCard</string>
-    <string name="change_bg_theme_cancel">Отмена</string>
+    <string name="change_bg_theme_cancel">Отменить</string>
     <string name="change_bg_theme_save">Сохранить</string>
     <string name="change_bg_theme_title">Фон</string>
     <string name="check_for_delete_sim_body">Удалить сообщения SIM-карты?</string>
@@ -821,10 +830,4 @@
     <string name="spam_number_input_hint">Номер или аккаунт Flyme</string>
     <string name="title_message_conversation">Диалог</string>
     <string name="trash_restore_title">Восстановить</string>
-    <string name="attach_menu_timer">Сообщение по расписанию</string>
-    <string name="menu_action_select">Сохр.</string>
-    <string name="pick_timer_warning">Выбранное время должно быть не раньше текущего</string>
-    <string name="timer_string_formatter">Будет отправлено %1$s</string>
-    <string name="timer_date_formatter">dd/MM/yyyy HH:mm</string>
-    <string name="timer_date_formatter_12">dd/MM/yyyy hh:mm a</string>
 </resources>
