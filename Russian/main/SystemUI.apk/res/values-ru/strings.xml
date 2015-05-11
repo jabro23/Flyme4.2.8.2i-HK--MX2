@@ -310,7 +310,7 @@
     <string name="flow_limit_warn_ok">ОК</string>
     <string name="mail">E-mail</string>
     <string name="notification_counter">Уведомление</string>
-    <string name="disable_notification_title">Не показывать это уведомление?</string>
+    <string name="disable_notification_title">Скрыть это уведомление?</string>
     <string name="disable_notification_sub_title">"Вернуть обратно можно 
 в Центре безопасности 
 (Разрешения-Уведомления)"</string>
@@ -391,4 +391,5 @@
     <string name="mc_pm_online_intenert">Интернет</string>
     <string name="download_cancel">Отменить</string>
     <string name="download_ok">ОК</string>
+	<string name="disable_button_text">Скрыть</string>
 </resources>
