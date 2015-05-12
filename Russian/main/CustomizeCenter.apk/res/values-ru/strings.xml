@@ -33,7 +33,6 @@
     <string name="category_theme">Темы</string>
     <string name="cencel">Отмена</string>
     <string name="check_license_failed">Не удалось проверить подлинность, загрузите эту тему повторно</string>
-	<string name="online_theme_trial_check_license_fail">Не удалось проверить подлинность, загрузите эту тему повторно</string>
     <string name="check_order">Проверка заказа</string>
     <string name="check_order_fail">Ошибка проверки заказа</string>
     <string name="china_mobile">China Mobile</string>
@@ -71,6 +70,9 @@
     <string name="download_count">Загрузка:</string>
     <string name="download_error">Ошибка загрузки</string>
     <string name="download_history">Нет на устройстве: %s</string>
+    <string name="download_manage">Менеджер загрузок</string>
+    <string name="download_ringtone_fail">Ошибка при загрузке рингтонов</string>
+    <string name="download_ringtone_success">Рингтоны успешно загружены</string>
     <string name="download_state_cancel">Отмена</string>
     <string name="download_state_done">Загрузка завершена</string>
     <string name="download_state_downloading">Загрузка...</string>
@@ -81,9 +83,16 @@
     <string name="download_state_starting">Старт загрузки темы...</string>
     <string name="download_state_waiting">Ожидание загрузки</string>
     <string name="download_state_waiting_update">Ожидание...</string>
+    <string name="download_theme_fail">Ошибка при загрузке тем</string>
+    <string name="download_theme_success">Темы успешно загружены</string>
     <string name="download_wallpaper_fail">Ошибка загрузки обоев</string>
+    <string name="download_wallpaper_menu_title">Загрузить</string>
     <string name="download_wallpaper_success">Обои успешно загружены</string>
+    <string name="downloaded_title">Загружено</string>
     <string name="downloading">Загрузка...</string>
+    <string name="downloading_ringtone" formatted="false">Загрузка рингтонов %d/%d</string>
+    <string name="downloading_theme" formatted="false">Загрузка тем %d/%d</string>
+    <string name="downloading_title">Загружается</string>
     <string name="downloading_wallpaper">Загрузка обоев...</string>
     <string name="error">Ошибка загрузки</string>
     <string name="error_code_remote_exception">Ошибка удаленного управления аккаунтом</string>
@@ -231,6 +240,7 @@
     <string name="online_theme_applied">Применено</string>
     <string name="online_theme_apply">Применить</string>
     <string name="online_theme_old">Онлайн-версия темы слишком старая</string>
+    <string name="online_theme_trial_check_license_fail">Не удалось проверить подлинность, загрузите эту тему повторно</string>
     <string name="online_theme_un_existed">Тема больше не существует</string>
     <string name="other_error">Другие проблемы</string>
     <string name="paid">Куплено. Бесплатно для трёх устройств</string>
@@ -245,6 +255,7 @@
     <string name="positive_continue">Продолжить</string>
     <string name="preview_apply_all">Применить всю тему</string>
     <string name="preview_apply_mix_project">Применить выбранное</string>
+    <string name="preview_menu_title">Предпросмотр</string>
     <string name="preview_select_module_title">Выберите модуль</string>
     <string name="pull_to_refresh">Потянуть вверх для обновления</string>
     <string name="push_downloaded">Тема установлена</string>
@@ -257,8 +268,13 @@
     <string name="res_error">Ресурсная ошибка</string>
     <string name="reset_to_systemtheme">Восстановить системную тему</string>
     <string name="ring">Рингтоны</string>
+    <string name="ring_download_state_starting">Старт загрузки рингтона...</string>
     <string name="ring_select_ringtones">Выбрать␀</string>
+    <string name="ring_tone_duration">Продолж. %s</string>
+    <string name="ring_tone_list_download">Загрузить</string>
     <string name="ring_tone_list_setting">Установить</string>
+    <string name="ring_tone_play_count">Прослушано %s</string>
+    <string name="ring_tone_play_count_ten_thousand">Прослушано %s десятк. тысяч</string>
     <string name="ring_tone_setting_contact_success">Рингтон для контакта установлен</string>
     <string name="ring_tone_setting_msg_success">Рингтон установлен</string>
     <string name="ring_tone_setting_phone_success">Рингтон установлен</string>
@@ -276,6 +292,7 @@
     <string name="set_as_launcher">На рабочий стол</string>
     <string name="set_as_lock_screen">На экран блокировки</string>
     <string name="set_as_lock_screen_and_launcher">На оба экрана</string>
+    <string name="set_as_smart_wallpaper">Смарт-обои установлены</string>
     <string name="set_system_rings">Выбрать системный рингтон</string>
     <string name="set_theme_error">Ошибка установки темы</string>
     <string name="set_theme_succ">Тема успешно установлена</string>
@@ -290,6 +307,7 @@
     <string name="sharetheme_action">Передать тему</string>
     <string name="size">Размер:</string>
     <string name="slide_unlock_screen">Вверх для разблокировки</string>
+    <string name="smart_wallpaper_menu_title">Смарт-обои</string>
     <string name="start_setting_theme">Настройка темы...</string>
     <string name="storage_not_enough">Недостаточно места</string>
     <string name="submit">Готово</string>
@@ -350,22 +368,6 @@
     <string name="category">Категории</string>
     <string name="copy_theme">Применение...</string>
     <string name="obtaining_balance">Баланс: Недоступен</string>
-	<string name="download_theme_fail">Ошибка при загрузке тем</string>
-    <string name="download_theme_success">Темы успешно загружены</string>
-	<string name="downloading_theme" formatted="false">Загрузка тем %d/%d</string>
-	<string name="download_manage">Менеджер загрузок</string>
-	<string name="downloaded_title">Загружено</string>
-	<string name="downloading_title">Загружается</string>
-	<string name="download_ringtone_success">Рингтоны успешно загружены</string>
-	<string name="downloading_ringtone" formatted="false">Загрузка рингтонов %d/%d</string>
-	<string name="ring_download_state_starting">Старт загрузки рингтона...</string>
-	<string name="download_ringtone_fail">Ошибка при загрузке рингтонов</string>
-	<string name="ring_tone_list_download">Загрузить</string>
-	<string name="download_wallpaper_menu_title">Загрузить</string>
-	<string name="smart_wallpaper_menu_title">Смарт-обои</string>
-	<string name="set_as_smart_wallpaper">Смарт-обои установлены</string>
-	<string name="preview_menu_title">Предпросмотр</string>
-	<string name="ring_tone_duration">Продолж. %s</string>
-	<string name="ring_tone_play_count">Прослушано %s</string>
-    <string name="ring_tone_play_count_ten_thousand">Прослушано %s десятк. тысяч</string>
+    <string name="downloading_single_ringtone">Загрузка рингтона 《%s》</string>
+    <string name="downloading_single_theme">Загрузка темы 《%s》</string>
 </resources>
